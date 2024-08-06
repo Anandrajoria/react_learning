@@ -1,0 +1,12 @@
+.poke{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+}
+
