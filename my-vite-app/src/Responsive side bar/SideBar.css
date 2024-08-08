@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    z-index: 1000;
+}      
+.menu {
+    cursor: pointer;
+}
+
+.heading{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
