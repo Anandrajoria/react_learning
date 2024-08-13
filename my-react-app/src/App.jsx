@@ -13,7 +13,13 @@
 // import Dombo from "./counter/Dombo"
 // let colors=['red','blue','grey','megenta','pink','black','orange','green','purple']
 // import Main from "./calculator/Main"
-import Index from "./props/NetflifApp/Netflix"
+// import Index from "./props/NetflifApp/Netflix"
+// import ScoreKeeper from "./counter/ScoreKeeper"
+// import EmojiClicker from "./counter/EmojiClicker"
+import Form from "./Forms/Forms"
+import SignupForm from "./Forms/SignupForm"
+import ShoppingListForm from "./Forms/ShoppingListForm"
+import ShoppingList from "./Forms/ShoppingList"
 
 function App(){
     return(
@@ -38,7 +44,13 @@ function App(){
         <Counter/>
         <Dombo/> 
         <Main/> */}
-        <Index/>
+        {/* <Index/> */}
+        {/* <ScoreKeeper/>  */}
+        {/* <EmojiClicker/> */}
+        {/* <Form/> */}
+        {/* <SignupForm/> */}
+        <ShoppingList/>
+        {/* <ShoppingListForm/> */}
         </>
     )
 }

@@ -3,4 +3,24 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+input{
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+  
+}
+button{
+  margin-left: 10px;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color: cadetblue;
+}
