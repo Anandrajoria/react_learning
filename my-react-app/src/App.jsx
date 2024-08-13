@@ -16,11 +16,11 @@
 // import Index from "./props/NetflifApp/Netflix"
 // import ScoreKeeper from "./counter/ScoreKeeper"
 // import EmojiClicker from "./counter/EmojiClicker"
-import Form from "./Forms/Forms"
-import SignupForm from "./Forms/SignupForm"
-import ShoppingListForm from "./Forms/ShoppingListForm"
-import ShoppingList from "./Forms/ShoppingList"
-
+// import Form from "./Forms/Forms"
+// import SignupForm from "./Forms/SignupForm"
+// import ShoppingListForm from "./Forms/ShoppingListForm"
+// import ShoppingList from "./Forms/ShoppingList"
+import Com from "./componentss/Com"
 function App(){
     return(
         <>
@@ -49,8 +49,10 @@ function App(){
         {/* <EmojiClicker/> */}
         {/* <Form/> */}
         {/* <SignupForm/> */}
-        <ShoppingList/>
+        {/* <ShoppingList/> */}
         {/* <ShoppingListForm/> */}
+
+        <Com/>
         </>
     )
 }
