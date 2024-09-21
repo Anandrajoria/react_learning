@@ -1,0 +1,233 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #111; 
+    overflow: hidden;
+    position: absolute;
+    overflow-y: auto;
+}
+
+.container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover; 
+}
+
+.box {
+    width: 80%;
+    height: auto;
+    min-width: 500px;
+    padding: 20px;
+    background-color: #1B1D1F;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1; 
+    margin-top: 15%;
+    margin-bottom: 50px;
+    overflow: visible;
+}
+
+.container .box .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.container .box .heading h1 {
+    color: #FEF7EE;
+}
+
+.container .box .heading p {
+    color: #6F757C;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.container .box .heading .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container .box .heading .btns button {
+    margin: 15px;
+    padding: 6.5px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+    color: #FEF7EE;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+.container .box .heading .btns button:hover {
+    background-color: #6F757C;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 30px; 
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0,0.1); 
+    min-width: calc(26.333% - 20px);
+    min-height: 200px;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: visible;
+}
+
+.container .box .cards .card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.cardd{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: -11;
+    padding-top: 12.5rem;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.card .card-content{
+    z-index: 1;
+}
+
+
+.card-content {
+    width: 100%; 
+    padding: 10px; 
+    /* background-color: #966d6d;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #FEF7EE;
+}
+
+.card-content button {
+    background-color: #BEE3CC;
+    color: #111;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.card .card-rate  {
+    width: 100%; 
+    padding: 10px;
+    /* background-color: #565454; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.9rem;
+    color: #fff;
+    /* gap: 1px; */
+    z-index: 1;
+    margin-top: -15px;
+}
+
+.card-rate p img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    
+}
+.card-rate p{
+    color: #fff;
+    
+}
+
+.card-rate span {
+    color: #ffffff;
+} 
+
+/* 
+@media (max-width: 480px) {
+    .heading h1 {
+        font-size: 2rem;
+    }
+
+    .heading p {
+        font-size: 16px;
+    }
+
+    .btns button {
+        width: 120px;
+        font-size: 13px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .card-image img {
+        height: 150px;
+    }
+
+    .card-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .card-content button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+} */
