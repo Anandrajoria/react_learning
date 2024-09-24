@@ -20,7 +20,9 @@
 // import SignupForm from "./Forms/SignupForm"
 // import ShoppingListForm from "./Forms/ShoppingListForm"
 // import ShoppingList from "./Forms/ShoppingList"
-import Com from "./componentss/Com"
+// import Com from "./componentss/Com"
+// import List from "./listAndKeys/List"
+// import Refs from "./refs/Refs"
 function App(){
     return(
         <>
@@ -51,8 +53,10 @@ function App(){
         {/* <SignupForm/> */}
         {/* <ShoppingList/> */}
         {/* <ShoppingListForm/> */}
+        {/* <Com/> */}
+        {/* <List/> */}
+        {/* <Refs/> */}
 
-        <Com/>
         </>
     )
 }
