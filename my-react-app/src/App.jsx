@@ -23,6 +23,7 @@
 // import Com from "./componentss/Com"
 // import List from "./listAndKeys/List"
 // import Refs from "./refs/Refs"
+import SlotMachine from "./slot machine/slotMachine"
 function App(){
     return(
         <>
@@ -56,7 +57,7 @@ function App(){
         {/* <Com/> */}
         {/* <List/> */}
         {/* <Refs/> */}
-
+        <SlotMachine/>
         </>
     )
 }
