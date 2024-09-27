@@ -23,7 +23,8 @@
 // import Com from "./componentss/Com"
 // import List from "./listAndKeys/List"
 // import Refs from "./refs/Refs"
-import SlotMachine from "./slot machine/slotMachine"
+// import SlotMachine from "./slot machine/slotMachine"
+import Counter from "./hooks/counter/Counter"
 function App(){
     return(
         <>
@@ -46,18 +47,20 @@ function App(){
         <Random colors={colors}/>
         <Counter/>
         <Dombo/> 
-        <Main/> */}
-        {/* <Index/> */}
-        {/* <ScoreKeeper/>  */}
-        {/* <EmojiClicker/> */}
-        {/* <Form/> */}
-        {/* <SignupForm/> */}
-        {/* <ShoppingList/> */}
-        {/* <ShoppingListForm/> */}
-        {/* <Com/> */}
-        {/* <List/> */}
-        {/* <Refs/> */}
-        <SlotMachine/>
+        <Main/> 
+        <Index/>
+        <ScoreKeeper/> 
+        <EmojiClicker/>
+        <Form/>
+        <SignupForm/>
+        <ShoppingList/>
+        <ShoppingListForm/>
+        <Com/>
+        <List/>
+        <Refs/>
+        <SlotMachine/>  */}
+        <Counter/>
+
         </>
     )
 }
