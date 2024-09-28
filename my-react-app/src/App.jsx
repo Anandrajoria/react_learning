@@ -24,7 +24,8 @@
 // import List from "./listAndKeys/List"
 // import Refs from "./refs/Refs"
 // import SlotMachine from "./slot machine/slotMachine"
-import Counter from "./hooks/counter/Counter"
+// import Counter from "./hooks/counter/Counter"
+import Clock from "./hooks/clock/Clock"
 function App(){
     return(
         <>
@@ -59,7 +60,8 @@ function App(){
         <List/>
         <Refs/>
         <SlotMachine/>  */}
-        <Counter/>
+        {/* <Counter/> */}
+        <Clock/>
 
         </>
     )
