@@ -1,7 +1,5 @@
-// 
-
 import React, { useState } from "react";
-
+import './clock.css'
 function Clock(){
 
     let time=new Date().toLocaleTimeString();
@@ -16,7 +14,7 @@ function Clock(){
 
     return(
         <>
-        <div>
+        <div className="clock">
             <h1>{curtime}</h1>
             
         </div>
