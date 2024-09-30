@@ -25,7 +25,8 @@
 // import Refs from "./refs/Refs"
 // import SlotMachine from "./slot machine/slotMachine"
 // import Counter from "./hooks/counter/Counter"
-import Clock from "./hooks/clock/Clock"
+// import Clock from "./hooks/clock/Clock"
+import ClickEvent from "./event/ClickEvent"
 function App(){
     return(
         <>
@@ -61,8 +62,8 @@ function App(){
         <Refs/>
         <SlotMachine/>  */}
         {/* <Counter/> */}
-        <Clock/>
-
+        {/* <Clock/> */}
+        <ClickEvent/>
         </>
     )
 }
