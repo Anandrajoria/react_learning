@@ -26,7 +26,8 @@
 // import SlotMachine from "./slot machine/slotMachine"
 // import Counter from "./hooks/counter/Counter"
 // import Clock from "./hooks/clock/Clock"
-import ClickEvent from "./event/ClickEvent"
+// import ClickEvent from "./event/ClickEvent"
+import Form from "./Forms/form/Form"
 function App(){
     return(
         <>
@@ -63,7 +64,8 @@ function App(){
         <SlotMachine/>  */}
         {/* <Counter/> */}
         {/* <Clock/> */}
-        <ClickEvent/>
+        {/* <ClickEvent/> */}
+        <Form/>
         </>
     )
 }
