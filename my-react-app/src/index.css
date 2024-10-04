@@ -12,12 +12,7 @@ div{
   align-items: center;
   justify-content: center;
 }
-input{
-  height: 30px;
-  width: auto;
-  border-radius: 5px;
-  
-}
+
 button{
   padding: 12px 20px;
   color: #fff;
@@ -33,7 +28,7 @@ button:hover{
 }
 
 input{
-  width: 100%;
+  width: 50%;
   padding: 10px 20px;
   border: none;
   outline: none;

@@ -27,7 +27,8 @@
 // import Counter from "./hooks/counter/Counter"
 // import Clock from "./hooks/clock/Clock"
 // import ClickEvent from "./event/ClickEvent"
-import Form from "./Forms/form/Form"
+// import Form from "./Forms/form/Form"
+import Todo from "./todoList/Todo"
 function App(){
     return(
         <>
@@ -65,7 +66,8 @@ function App(){
         {/* <Counter/> */}
         {/* <Clock/> */}
         {/* <ClickEvent/> */}
-        <Form/>
+        {/* <Form/> */}
+        <Todo/>
         </>
     )
 }
