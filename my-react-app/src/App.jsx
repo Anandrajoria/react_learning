@@ -28,8 +28,9 @@
 // import Clock from "./hooks/clock/Clock"
 // import ClickEvent from "./event/ClickEvent"
 // import Form from "./Forms/form/Form"
-import Todo from "./todoList/Todo"
+// import Todo from "./todoList/Todo"
 // import Counter from "./Counters/Counter"
+import Accordian from "./Accordian/Accordian"
 function App(){
     return(
         <>
@@ -63,13 +64,15 @@ function App(){
         <Com/>
         <List/>
         <Refs/>
-        <SlotMachine/>  */}
-        {/* <Counter/> */}
-        {/* <Clock/> */}
-        {/* <ClickEvent/> */}
-        {/* <Form/> */}
+        <SlotMachine/>  
+        <Counter/> 
+        <Clock/>
+        <ClickEvent/>
+        <Form/>
         <Todo/>
-        {/* <Counter/> */}
+         <Counter/> */}
+
+         <Accordian/>
         </>
     )
 }
