@@ -30,7 +30,7 @@
 // import Form from "./Forms/form/Form"
 // import Todo from "./todoList/Todo"
 // import Counter from "./Counters/Counter"
-import Accordian from "./Accordian/Accordian"
+// import Accordian from "./Accordian/Accordian"
 function App(){
     return(
         <>
@@ -71,8 +71,8 @@ function App(){
         <Form/>
         <Todo/>
          <Counter/> */}
-
-         <Accordian/>
+         {/* <Accordian/> */}
+        
         </>
     )
 }

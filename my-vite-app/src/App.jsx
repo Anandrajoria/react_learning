@@ -2,7 +2,7 @@
 // import SideBar  from './Responsive side bar/SideBar';
 // import Cafes from './Cafe/cafes';
 // import SideBar from "./sideBar/SideBar";
-import ProfileCard from "./profileCard/ProfileCard";
+import KeepUp from "./googleKeepUp/KeepUp";
 export default function App() {
     return (
         <>
@@ -10,7 +10,7 @@ export default function App() {
             {/* <SideBar/> */}
             {/* <Cafes/> */}
             {/* <SideBar/> */}
-            <ProfileCard/>
+            <KeepUp/>
         </>
     );
 }
