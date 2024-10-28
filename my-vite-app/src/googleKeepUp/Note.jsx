@@ -1,34 +1,22 @@
-function Note() {
+function Note(props) {
+  const deleteNote=()=>{
+    props.deleteItem(props.id);
+  }
+
   return (
     <>
-    <div className="note-main">
-        <div className='keepNote'>
-            <h1>title</h1>
-            {/* <br /> */}
-            <p>this is content</p>
-            {/* <i className='fa fa-trash' aria-hidden='true'></i> */}
-            <button>🗑️</button>
-        </div>
-
-        <div className='keepNote'>
-            <h1>title</h1>
-            {/* <br /> */}
-            <p>this is content</p>
-            {/* <i className='fa fa-trash' aria-hidden='true'></i> */}
-            <button>🗑️</button>
-        </div>
-
-        <div className='keepNote'>
-            <h1>title</h1>
-            {/* <br /> */}
-            <p>this is content</p>
-            {/* <i className='fa fa-trash' aria-hidden='true'></i> */}
-            <button>🗑️</button>
-        </div>
-        
+      <div className="keepNote">
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
+        {/* <h1>title</h1>
+        <p>content</p> */}
+        <i className="fa fa-trash" onClick={deleteNote} aria-hidden="true"></i>
       </div>
+
+
+     
     </>
-  )
+  );
 }
 
-export default Note
+export default Note;
