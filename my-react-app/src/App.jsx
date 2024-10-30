@@ -31,6 +31,7 @@
 // import Todo from "./todoList/Todo"
 // import Counter from "./Counters/Counter"
 // import Accordian from "./Accordian/Accordian"
+import CompA from "./ContextApi/CompA"
 function App(){
     return(
         <>
@@ -72,7 +73,7 @@ function App(){
         <Todo/>
          <Counter/> */}
          {/* <Accordian/> */}
-        
+        <CompA/>
         </>
     )
 }
