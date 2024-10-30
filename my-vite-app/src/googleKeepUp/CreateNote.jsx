@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./keepUp.css";
 
 function CreateNote(props) {
-
   const [note, setnote] = useState({
     title: "",
     content: "",
@@ -38,7 +37,7 @@ function CreateNote(props) {
             value={note.title}
             onChange={InputEvent}
           />
-          
+
           <textarea
             rows=" "
             placeholder="write a note..."

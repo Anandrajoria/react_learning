@@ -1,7 +1,7 @@
 function Note(props) {
-  const deleteNote=()=>{
+  const deleteNote = () => {
     props.deleteItem(props.id);
-  }
+  };
 
   return (
     <>
@@ -12,9 +12,6 @@ function Note(props) {
         <p>content</p> */}
         <i className="fa fa-trash" onClick={deleteNote} aria-hidden="true"></i>
       </div>
-
-
-     
     </>
   );
 }

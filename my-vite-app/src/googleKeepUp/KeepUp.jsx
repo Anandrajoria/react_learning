@@ -16,11 +16,13 @@ function KeepUp() {
     console.log(note);
   };
 
-  const onDelete=(id)=>{
-    setAddItem((oldData)=>oldData.filter((currData,indx)=>{
-      return indx!==id;
-    }))
-  }
+  const onDelete = (id) => {
+    setAddItem((oldData) =>
+      oldData.filter((currData, indx) => {
+        return indx !== id;
+      })
+    );
+  };
   return (
     <>
       <Header />
