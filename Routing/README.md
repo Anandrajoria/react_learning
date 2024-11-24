@@ -1,8 +1,14 @@
-# React + Vite
+1. what is broweserRouter?
+   we write it to enable routing or navigation by syncing the URL in the browser's address bar with the components rendered on the page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. What is BrowserRouter?
+   BrowserRouter is a provider component from React Router.
+   It wraps your app and allows React Router to manage the history API (like pushState, popState) to handle navigation without refreshing the page.
 
-Currently, two official plugins are available:
+3. What is Routes?
+   The <Routes> component is a container that manages all the routes in your app. It is used to wrap multiple <Route> components and ensures that only the first matching route is rendered.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. What is Route?
+   The <Route> component is used to define a specific route and the component that should be rendered when the path matches.
+
+5. "/" is default route path
