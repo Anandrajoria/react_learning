@@ -13,7 +13,7 @@ import App from './App';
 const root=ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>     //in strice mode our elements render twice
     <App/>
-  </React.StrictMode>,
+  // </React.StrictMode>,
 )
