@@ -39,9 +39,9 @@ import Fruits from "./components/Fruits";
 function App() {
   return (
     <>
-      {/* <Fruits />    //! this is for saparate components */}
+     <Fruits />   {/*    //! this is for saparate components */}
       
-      <ConditionalComponent/>
+      {/* <ConditionalComponent/> */}
     </>
   );
 }
