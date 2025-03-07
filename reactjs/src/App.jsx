@@ -32,16 +32,17 @@
 
 // !  above is for passing arrays and objects to props
 
-
 import ConditionalComponent from "./components/conditionalComponent";
+import Counter from "./components/Counter";
 import Fruits from "./components/Fruits";
+import Message from "./components/Message";
 
 function App() {
   return (
     <>
-     <Fruits />   {/*    //! this is for saparate components */}
-      
-      {/* <ConditionalComponent/> */}
+      {/* <Fruits />      //! this is for saparate components */}
+      <Counter/>
+
     </>
   );
 }

@@ -20,11 +20,11 @@ export default Fruits;
 
 function Fruits() {
   const fruits = [
-    { name: "apple", price: 12, emoji: "🍎" },
-    { name: "mango", price: 28, emoji: "🥭" },
-    { name: "banana", price: 52, emoji: "🍌" },
-    { name: "orange", price: 72, emoji: "🟠" },
-    { name: "pineapple", price: 6, emoji: "🍍" },
+    { name: "apple", price: 12, emoji: "🍎", soldOut: false },
+    { name: "mango", price: 28, emoji: "🥭", soldOut: true },
+    { name: "banana", price: 52, emoji: "🍌", soldOut: true },
+    { name: "orange", price: 72, emoji: "🟠", soldOut: false },
+    { name: "pineapple", price: 6, emoji: "🍍", soldOut: true },
   ];
   return (
     <>
@@ -37,6 +37,7 @@ function Fruits() {
             name={fruit.name}
             price={fruit.price}
             emoji={fruit.emoji}
+            soldOut={fruit.soldOut}
           />
         ))}
       </ul>
